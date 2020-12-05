@@ -5,11 +5,16 @@ date: 2020-12-05 16:00:00 +0900
 categories: random en
 ---
 
-# What is this blog for?
+## What is this blog for?
 
 Just for recording my life, my thought, my notes (language, programming, travelling... etc).
 
-# How I made this blog
+## Why I built this blog?
+
+Actually I tried different blog platform before, like Blogger, Logdown, Medium, WordPress, even PTT2 (only Taiwanese know 😏). But I'm not really very active because the "writing cost" is too high, like logging into the platform, formatting the style, finding some nice photos etc. Then I realized, maybe using Github Pages can reduce the cost of "start writing". Let's see if I can keep working on this 😉.
+
+## How I built this blog
+Briefly record how I built this site. Actually it takes me more time than I expected...
 
 ### STEP1: Make a simple blog with Jekyllrb
 Follow the [Quickstart](https://jekyllrb.com/docs/). And it already looks nice (without knowing anything about Ruby 😁 ). 
@@ -53,3 +58,16 @@ Also for using non-github theme, the `remote` argument should also be change to 
 ```
 remote_theme: riggraz/no-style-please
 ``` 
+
+### STEP7 (Optional): Add github-pages gem
+As the problem I mentioned in STEP6, the root of domain might be different. If you want to always check your post locally before pushing to Github, the plugin of github-pages might solve this problem. For more details, please check the [Jekllrb Doc for Github Pages](https://jekyllrb.com/docs/github-pages/#the-github-pages-gem)!
+
+
+## Reference & Acknowledgement
+- [Github Pages](https://pages.github.com/)
+- [Jekyllrb](https://jekyllrb.com/)
+- [Not Style Please](https://jekyll-themes.com/no-style-please/)
+
+### Other Resources
+- [Tutorial](http://jmcglone.com/guides/github-pages/)
+- [Jekllrb Doc for Github Pages](https://jekyllrb.com/docs/github-pages/)
