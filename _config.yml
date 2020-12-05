@@ -28,7 +28,7 @@ twitter_username: yuzuc11
 github_username: yuzuc11
 
 # Build settings
-theme: no-style-please
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
