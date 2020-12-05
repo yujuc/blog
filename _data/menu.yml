@@ -1,0 +1,54 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: This blog is for my random notes 😛
+      - title: github repo
+        url: https://github.com/riggraz/no-style-please
+      - title: "try to add some html like <b style='color:blue'>hehe</b>"
+
+  - title: all posts
+    post_list:
+      limit: 10
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: posts by category
+    entries:
+      - title: Random
+        post_list:
+          limit: 10
+          category: random
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: category/random.html
+      - title: Study
+        post_list:
+          limit: 10
+          category: study
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: category/random.html
+
+  - title: posts by language
+    entries:
+      - title: [en]
+        post_list:
+          limit: 10
+          category: en
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: category/en.html
+      - title: [zh-tw]
+        post_list:
+          limit: 10
+          category: zh
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: category/zh.html
+
+  - title: rss
+    url: feed.xml
