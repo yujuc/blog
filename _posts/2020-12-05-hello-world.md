@@ -44,4 +44,12 @@ This is the page when you click something like "Read More...". First you need th
 - `archive.md`
 
 ### STEP6: Push to Github and enable Github Page
-Follow Github Page instruction.
+Follow Github Page instruction. But be aware the environment different between local and Github! Locally, the host name is `localhost:4000`, so everything starts from the root. But in Github pages, the host name will be `[account].github.io/[repo]`, which has a subdomain. For adjusting this problem, make sure to add the following code in `_config.yml`
+```
+url: "https://yujuc.github.io/blog"
+baseurl: "/blog"
+```
+Also for using non-github theme, the `remote` argument should also be change to `remote_theme`
+```
+remote_theme: riggraz/no-style-please
+``` 
