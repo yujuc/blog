@@ -23,7 +23,8 @@ title: Yuzu's blog
 description: >- # this means to ignore newlines until "baseurl:"
   I will talk about balabala
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://yujuc.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yujuc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: yuzuc11
 github_username: yujuc
 
