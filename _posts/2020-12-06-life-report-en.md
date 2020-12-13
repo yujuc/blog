@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Life Report 20201206"
+title: "Life Report"
 date: 2020-12-06 17:00:00 +0900
 categories: random en
 ---
