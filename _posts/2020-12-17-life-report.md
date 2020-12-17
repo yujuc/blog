@@ -9,7 +9,7 @@ categories: random zh
 
 最近花點時間學寫前端跟 Docker container。
 
-前端主要是學 React ，剛好工作也需要一點 visualization 的能力，就 React + Material UI 自建簡單的 frontend app。但還不會 backend 所以只能做些很表面的東西（沒有 BE 就沒辦法串 data 跟複雜的計算，就只有華麗的外而已）
+前端主要是學 React ，剛好工作也需要一點 visualization 的能力，就 React + Material UI 自建簡單的 frontend app。但還不會 backend 所以只能做些很表面的東西（沒有 BE 就沒辦法串 data 跟複雜的計算，就只有華麗的外皮而已）
 
 總想學會能打天下的一招半式。例如，
 
