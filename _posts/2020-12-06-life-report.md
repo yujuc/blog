@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "生存報告-20201206"
+title: "生存報告"
 date: 2020-12-06 16:00:00 +0900
 categories: random zh
 ---
